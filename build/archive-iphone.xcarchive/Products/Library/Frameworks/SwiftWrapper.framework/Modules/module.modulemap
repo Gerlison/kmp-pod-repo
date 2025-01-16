@@ -1,0 +1,11 @@
+framework module SwiftWrapper {
+  umbrella header "SwiftWrapper.h"
+  export *
+
+  module * { export * }
+}
+
+module SwiftWrapper.Swift {
+  header "SwiftWrapper-Swift.h"
+  requires objc
+}

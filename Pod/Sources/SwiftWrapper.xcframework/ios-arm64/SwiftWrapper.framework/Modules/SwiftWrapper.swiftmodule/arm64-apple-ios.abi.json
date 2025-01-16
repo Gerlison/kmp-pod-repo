@@ -1,0 +1,296 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SwiftWrapper",
+    "printedName": "SwiftWrapper",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SwiftWrapper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftWrapper"
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentDetector",
+        "printedName": "DocumentDetector",
+        "declKind": "Import",
+        "moduleName": "SwiftWrapper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafDocumentDetector",
+        "printedName": "CafDocumentDetector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafDocumentDetector",
+                "printedName": "SwiftWrapper.CafDocumentDetector",
+                "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector(im)initWithToken:",
+            "mangledName": "$s12SwiftWrapper19CafDocumentDetectorC5tokenACSS_tcfc",
+            "moduleName": "SwiftWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getController",
+            "printedName": "getController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentDetectorController",
+                "printedName": "DocumentDetector.DocumentDetectorController",
+                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector(im)getController",
+            "mangledName": "$s12SwiftWrapper19CafDocumentDetectorC13getController0dE00deG0CyF",
+            "moduleName": "SwiftWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentDetectionController",
+            "printedName": "documentDetectionController(_:didFinishWithResults:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentDetectorController",
+                "printedName": "DocumentDetector.DocumentDetectorController",
+                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentDetectorResult",
+                "printedName": "DocumentDetector.DocumentDetectorResult",
+                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector(im)documentDetectionController:didFinishWithResults:",
+            "mangledName": "$s12SwiftWrapper19CafDocumentDetectorC27documentDetectionController_20didFinishWithResultsy0dE00deH0C_AF0dE6ResultCtF",
+            "moduleName": "SwiftWrapper",
+            "objc_name": "documentDetectionController:didFinishWithResults:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentDetectionControllerDidCancel",
+            "printedName": "documentDetectionControllerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentDetectorController",
+                "printedName": "DocumentDetector.DocumentDetectorController",
+                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector(im)documentDetectionControllerDidCancel:",
+            "mangledName": "$s12SwiftWrapper19CafDocumentDetectorC36documentDetectionControllerDidCancelyy0dE00deH0CF",
+            "moduleName": "SwiftWrapper",
+            "objc_name": "documentDetectionControllerDidCancel:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documentDetectionController",
+            "printedName": "documentDetectionController(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DocumentDetectorController",
+                "printedName": "DocumentDetector.DocumentDetectorController",
+                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafDocumentDetectorFailure",
+                "printedName": "DocumentDetector.CafDocumentDetectorFailure",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafDocumentDetectorFailure"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector(im)documentDetectionController:didFailWithError:",
+            "mangledName": "$s12SwiftWrapper19CafDocumentDetectorC27documentDetectionController_16didFailWithErrory0dE00deH0C_AF0cdE7FailureCtF",
+            "moduleName": "SwiftWrapper",
+            "objc_name": "documentDetectionController:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafDocumentDetector",
+                "printedName": "SwiftWrapper.CafDocumentDetector",
+                "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector(im)init",
+            "mangledName": "$s12SwiftWrapper19CafDocumentDetectorCACycfc",
+            "moduleName": "SwiftWrapper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SwiftWrapper@objc(cs)CafDocumentDetector",
+        "mangledName": "$s12SwiftWrapper19CafDocumentDetectorC",
+        "moduleName": "SwiftWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DocumentDetectorControllerDelegate",
+            "printedName": "DocumentDetectorControllerDelegate",
+            "usr": "c:@M@DocumentDetector@objc(pl)DocumentDetectorControllerDelegate",
+            "mangledName": "$s16DocumentDetector0aB18ControllerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

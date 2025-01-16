@@ -1,0 +1,26 @@
+PODS:
+  - CafSolutions (1.0.1)
+  - DocumentDetector (15.0.3):
+    - CafSolutions (= 1.0.1)
+    - TensorFlowLiteC (= 2.14.0)
+  - TensorFlowLiteC (2.14.0):
+    - TensorFlowLiteC/Core (= 2.14.0)
+  - TensorFlowLiteC/Core (2.14.0)
+
+DEPENDENCIES:
+  - DocumentDetector (= 15.0.3)
+
+SPEC REPOS:
+  trunk:
+    - CafSolutions
+    - DocumentDetector
+    - TensorFlowLiteC
+
+SPEC CHECKSUMS:
+  CafSolutions: d509f8672793cc8c022a91b203c84886682ca478
+  DocumentDetector: fa90086e0361c262ebe9a06a2efe7b8c78652bc9
+  TensorFlowLiteC: a836de9b6e6018665ccc349538bdd2c3b80dd7a5
+
+PODFILE CHECKSUM: 068ffd0921a9888237e4a97d3ab59f49f4188c28
+
+COCOAPODS: 1.14.3

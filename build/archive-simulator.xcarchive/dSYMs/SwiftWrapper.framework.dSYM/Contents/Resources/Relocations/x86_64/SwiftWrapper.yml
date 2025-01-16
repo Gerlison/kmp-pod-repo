@@ -1,0 +1,36 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/francisco.domingos/Library/Developer/Xcode/DerivedData/SwiftWrapper-dbwlrkakzlnmaxdkvwytmsacrwev/Build/Intermediates.noindex/ArchiveIntermediates/SwiftWrapper/InstallationBuildProductsLocation/Library/Frameworks/SwiftWrapper.framework/SwiftWrapper'
+relocations:
+  - { offset: 0x5BBAA, size: 0x8, addend: 0x0, symName: _SwiftWrapperVersionString, symObjAddr: 0x0, symBinAddr: 0x2F9EC0, symSize: 0x0 }
+  - { offset: 0x5BBDF, size: 0x8, addend: 0x0, symName: _SwiftWrapperVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2F9EF8, symSize: 0x0 }
+  - { offset: 0x5BF00, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorCfETo', symObjAddr: 0x670, symBinAddr: 0x2DB0, symSize: 0x20 }
+  - { offset: 0x5BF3A, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF16DocumentDetector0gH4StepC_Tgm5', symObjAddr: 0x690, symBinAddr: 0x2DD0, symSize: 0x50 }
+  - { offset: 0x5BF67, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorCMa', symObjAddr: 0x6E0, symBinAddr: 0x2E20, symSize: 0x20 }
+  - { offset: 0x5BFDE, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo19NSMutableDictionaryCSg_Tg5', symObjAddr: 0x700, symBinAddr: 0x2E40, symSize: 0x130 }
+  - { offset: 0x5C101, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF16DocumentDetector10CafCaptureC_Tg5', symObjAddr: 0x830, symBinAddr: 0x2F70, symSize: 0x1F0 }
+  - { offset: 0x5C27E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1670, symBinAddr: 0x3DB0, symSize: 0x40 }
+  - { offset: 0x5C292, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x16B0, symBinAddr: 0x3DF0, symSize: 0x50 }
+  - { offset: 0x5C2A6, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVACs23CustomStringConvertibleAAWl', symObjAddr: 0x1700, symBinAddr: 0x3E40, symSize: 0x40 }
+  - { offset: 0x5C2BA, size: 0x8, addend: 0x0, symName: '_$sSo19NSMutableDictionaryCMa', symObjAddr: 0x1740, symBinAddr: 0x3E80, symSize: 0x2F }
+  - { offset: 0x5C39E, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC08documentE00dE00dE3SdkCvgTo', symObjAddr: 0x0, symBinAddr: 0x2750, symSize: 0x20 }
+  - { offset: 0x5C3FE, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC08documentE00dE00dE3SdkCvsTo', symObjAddr: 0x20, symBinAddr: 0x2770, symSize: 0x30 }
+  - { offset: 0x5C664, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC5tokenACSS_tcfC', symObjAddr: 0x50, symBinAddr: 0x27A0, symSize: 0x40 }
+  - { offset: 0x5C69E, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC5tokenACSS_tcfc', symObjAddr: 0x90, symBinAddr: 0x27E0, symSize: 0x180 }
+  - { offset: 0x5C79C, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC5tokenACSS_tcfcTo', symObjAddr: 0x210, symBinAddr: 0x2960, symSize: 0x30 }
+  - { offset: 0x5C7BD, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC13getController0dE00deG0CyF', symObjAddr: 0x240, symBinAddr: 0x2990, symSize: 0x70 }
+  - { offset: 0x5C846, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC13getController0dE00deG0CyFTo', symObjAddr: 0x2B0, symBinAddr: 0x2A00, symSize: 0x90 }
+  - { offset: 0x5C8B5, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC27documentDetectionController_20didFinishWithResultsy0dE00deH0C_AF0dE6ResultCtF', symObjAddr: 0x340, symBinAddr: 0x2A90, symSize: 0x10 }
+  - { offset: 0x5C8D0, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC27documentDetectionController_20didFinishWithResultsy0dE00deH0C_AF0dE6ResultCtFTo', symObjAddr: 0x350, symBinAddr: 0x2AA0, symSize: 0x60 }
+  - { offset: 0x5C8FA, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC36documentDetectionControllerDidCancelyy0dE00deH0CF', symObjAddr: 0x3B0, symBinAddr: 0x2B00, symSize: 0x10 }
+  - { offset: 0x5C927, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC36documentDetectionControllerDidCancelyy0dE00deH0CFTo', symObjAddr: 0x3C0, symBinAddr: 0x2B10, symSize: 0x10 }
+  - { offset: 0x5C93B, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC27documentDetectionController_16didFailWithErrory0dE00deH0C_AF0cdE7FailureCtFTo', symObjAddr: 0x3E0, symBinAddr: 0x2B20, symSize: 0x10 }
+  - { offset: 0x5C97A, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC29saveImageToDocumentsDirectory5image8withNameSSSgSo7UIImageC_SStFTo', symObjAddr: 0x3F0, symBinAddr: 0x2B30, symSize: 0xB0 }
+  - { offset: 0x5CA08, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC21getDocumentsDirectory10Foundation3URLVyFTo', symObjAddr: 0x4A0, symBinAddr: 0x2BE0, symSize: 0x120 }
+  - { offset: 0x5CA89, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorCACycfC', symObjAddr: 0x5C0, symBinAddr: 0x2D00, symSize: 0x20 }
+  - { offset: 0x5CA9D, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorCACycfc', symObjAddr: 0x5E0, symBinAddr: 0x2D20, symSize: 0x30 }
+  - { offset: 0x5CAF6, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorCACycfcTo', symObjAddr: 0x610, symBinAddr: 0x2D50, symSize: 0x30 }
+  - { offset: 0x5CB4B, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorCfD', symObjAddr: 0x640, symBinAddr: 0x2D80, symSize: 0x30 }
+  - { offset: 0x5CBB3, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC29saveImageToDocumentsDirectory5image8withNameSSSgSo7UIImageC_SStFTf4nnd_n', symObjAddr: 0xA20, symBinAddr: 0x3160, symSize: 0x3C0 }
+  - { offset: 0x5CDE1, size: 0x8, addend: 0x0, symName: '_$s12SwiftWrapper19CafDocumentDetectorC27documentDetectionController_20didFinishWithResultsy0dE00deH0C_AF0dE6ResultCtFTf4dnd_n', symObjAddr: 0xDE0, symBinAddr: 0x3520, symSize: 0x7E0 }
+...
